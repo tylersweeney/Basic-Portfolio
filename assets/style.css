@@ -1,0 +1,41 @@
+body{
+	background-image:url("https://i.imgur.com/lQzyx2A.png");
+}
+
+#name{
+	position:fixed;
+	left:75px;
+	top:10px;
+	color:#ffffff;
+	background-color:#4aaaa5;
+	z-index: 2;
+}
+#nav{
+	right:0;
+	top:0;
+	left:0;
+	position:fixed;
+	text-align:right;
+	padding-right:20px;
+	height:120px;
+
+	background-color:white;
+	z-index: 1;
+}
+
+.wrapper{
+	width:600px;
+	margin:0 auto 0 auto;
+	padding: 20px;
+}
+p{
+
+}
+
+#aboutMe{
+
+
+}
+#aboutNav{
+
+}
