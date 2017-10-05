@@ -2,6 +2,13 @@ body{
 	background-image:url("https://i.imgur.com/lQzyx2A.png");
 }
 
+h4{
+	text-decoration: none;
+	display: inline;
+}
+h4:hover{
+color:#4aaaa5;
+}
 #name{
 	position:fixed;
 	left:75px;
