@@ -49,8 +49,8 @@ color:#4aaaa5;
 
 }
 #content{
-	display:inline;
 	left:0;
+	height: 650px
 	width:650px;
 	margin:150px auto 0 auto;
 	padding: 20px;
