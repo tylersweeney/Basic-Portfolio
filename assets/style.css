@@ -49,7 +49,7 @@ color:#4aaaa5;
 
 }
 #content{
-	left:0;
+
 	height: 650px
 	width:650px;
 	margin:150px auto 0 auto;
@@ -187,6 +187,11 @@ ul{
 
 aside{
 
+	margin-top:150px;
+	float:right;
+	position:absolute;
+	top:0;
+	right:0;
 	height: 200px;
 	width: 400px;
     background-color:#ffffff;
