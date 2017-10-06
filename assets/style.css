@@ -16,6 +16,12 @@ color:#4aaaa5;
 	border-bottom-style: solid;
 	padding-bottom: 20px;
 }
+#connect{	
+
+	font-size:36px;
+	color:#4aaaa5;
+	border-bottom-style: solid;
+	padding-bottom: 20px;}
 #name{
 	padding-left:5px;
 	padding-right:5px;
@@ -62,7 +68,7 @@ p, #nav, #aboutMe, #portfolio {
 	color:#777777;
 }
 
-#name, #aboutHead, #portHead{
+#name, #aboutHead, #portHead, #connect{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -188,7 +194,6 @@ ul{
 aside{
 
 	margin-top:150px;
-	float:right;
 	position:absolute;
 	top:0;
 	right:0;
@@ -196,6 +201,7 @@ aside{
 	width: 400px;
     background-color:#ffffff;
 }
+
 
 
 input[type=text], select, textarea {
