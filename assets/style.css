@@ -10,7 +10,7 @@ body{
 #nav1:hover{
 color:#4aaaa5;
 }
-#aboutHead, #portHead{
+#aboutHead, #portHead, #connect{
 	font-size:36px;
 	color:#4aaaa5;
 	border-bottom-style: solid;
@@ -66,7 +66,7 @@ p, #nav, #aboutMe, #portfolio {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-#aboutMe, #portHead{
+#aboutMe, #portHead, #connect{
 	margin-top:20px;
 	margin-bottom:70px;
 
@@ -185,7 +185,7 @@ ul{
 
 }
 
-aside{
+#connect{
 
 	margin-top:150px;
 	float:right;
