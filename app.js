@@ -21,7 +21,7 @@ app.set('view engine', 'ejs');
 
 //create home route
 app.get("/", function(req,res) {
-    res.sendFile(path.join(__dirname, "./app/views/home"));
+    res.sendFile(path.join(__dirname, "./views/home"));
 });
 // app.get('/', (req, res) =>{
 //    res.render('home', { user: req.user}); 
