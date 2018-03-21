@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
+const PORT = process.env.PORT || 8080;
 
 //set up view engine
 app.set('view engine', 'ejs');
@@ -37,6 +38,6 @@ app.get('/portfolio', (req, res) =>{
      res.render('about', {user: req.user});
  })
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log('app now listening for requests on port 3000');
 });
