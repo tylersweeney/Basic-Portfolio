@@ -24,7 +24,7 @@ app.set('view engine', 'ejs');
 
 //create home route
 app.get('/', (req, res) =>{
-   res.render('home',{ user: req.user}); 
+   res.render('home'); 
 });
 // app.get('/', (req, res) =>{
 //    res.render('home', { user: req.user}); 
@@ -32,17 +32,17 @@ app.get('/', (req, res) =>{
 
 //create portfolio route
 app.get('/portfolio', (req, res) =>{
-    res.render('portfolio', { user: req.user}); 
+    res.render('portfolio'); 
  });
 
  //create contact route
  app.get('/contact', (req,res)=>{
-     res.render('contact', {user: req.user});
+     res.render('contact');
  })
 
  //create about route
  app.get('/about', (req,res)=>{
-     res.render('about', {user: req.user});
+     res.render('about');
  })
 
 app.listen(PORT, () => {
