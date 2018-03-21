@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 8080;
+const path = require("path");
 
 //set up view engine
 app.set('view engine', 'ejs');
@@ -19,9 +20,12 @@ app.set('view engine', 'ejs');
 // app.use('/profile', profileRoutes);
 
 //create home route
-app.get('/', (req, res) =>{
-   res.render('home', { user: req.user}); 
+app.get("/", function(req,res) {
+    res.sendFile(path.join(__dirname, "./app/views/home"));
 });
+// app.get('/', (req, res) =>{
+//    res.render('home', { user: req.user}); 
+// });
 
 //create portfolia route
 app.get('/portfolio', (req, res) =>{
