@@ -1,9 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
+const ejs = require('ejs');
+const path = require('path');
+
 
 //set up view engine
+app.set('views', path.join(__dirname, 'app/views'))
 app.set('view engine', 'ejs');
 
 
@@ -20,7 +24,7 @@ app.set('view engine', 'ejs');
 
 //create home route
 app.get('/', (req, res) =>{
-   res.render('home', { user: req.user}); 
+   res.render('home',{ user: req.user}); 
 });
 
 //create portfolia route
