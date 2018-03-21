@@ -46,5 +46,5 @@ app.get('/portfolio', (req, res) =>{
  })
 
 app.listen(PORT, () => {
-    console.log('app now listening for requests on port 3000');
+    console.log('app now listening for requests on port:' + PORT);
 });
