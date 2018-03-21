@@ -30,7 +30,7 @@ app.get('/', (req, res) =>{
 //    res.render('home', { user: req.user}); 
 // });
 
-//create portfolia route
+//create portfolio route
 app.get('/portfolio', (req, res) =>{
     res.render('portfolio', { user: req.user}); 
  });
