@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 const ejs = require('ejs');
 const path = require('path');
 
-
+app.use(express.static('public'));
 //set up view engine
 app.set('views', path.join(__dirname, 'app/views'))
 app.set('view engine', 'ejs');

@@ -4,53 +4,82 @@
         <meta charset="utf-8">
         <title>Tyler J. Sweeney Portfolio</title>
         <style>
-            body{
-                font-family: arial;
-                margin: 0;
-            }
-            nav{
-                background: #53a575;
-                padding: 20px 10px;
-            }
-            nav ul{
-                max-width: 960px;
-                margin: 0 auto;
-                padding: 0;
-            }
-            nav li{
-                list-style-type: none;
-                display: inline-block;
-                margin: 0 10px 0 0;
-            }
-            nav a{
-                color: #fff;
-                font-size: 14px;
-                background: rgba(255,255,255,0.2);
-                text-decoration: none;
-                padding: 10px;
-                display: block;
-            }
-            main, header{
-                max-width: 960px;
-                margin: 30px auto;
-                padding: 0 10px;
-                color: #333;
-            }
-        </style>
+                body{
+                    background:#FFF3F4;
+                    font-family: arial;
+                    margin: 0;
+                }
+                nav{
+    
+                    background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX23894331.jpg");
+                    /* background: #53a575; */
+                    padding: 50px 10px 10px;
+                }
+                nav ul{
+                    max-width: 960px;
+                    margin: 10px 0px 0px 0px;
+                    padding: 0;
+                }
+                nav li{
+                    list-style-type: none;
+                    display: inline-block;
+                    position:left;
+                    margin: 10px 0px 10px 10px;
+                }
+                nav a{
+                    color: rgb(223, 222, 169);
+                    font-size: 20px;
+                    font-weight:bold;
+                    background: rgba(63,191,191,0.7);
+                    text-decoration: none;
+                    padding: 20px;
+                    /* display: inline; */
+                    
+                }
+                main, header{
+                    max-width: 960px;
+                    margin: 30px auto;
+                    padding: 0 10px;
+                    color: #333;
+                }
+                /* #logo{
+                    color:yellow;
+                    background: rgba(12,38,38,0.74);
+                    padding: 20px 10px;
+                    text-align: center;
+                    margin: 0 300px 0 300px;
+                } */
+                #container{
+                    background:white; 
+                    padding: 20px 10px;
+                    margin-left: 20%;
+                    margin-right: 20%;
+                    margin-top: 5%
+                }
+                #logoImg{
+                    max-width: 8%;
+                    height: auto;
+                    margin-left: 50%;
+                ;
+                    /* float: left; */
+                }
+            </style>
     </head>
     <body>
 
         <nav>
+                <img id=logoImg src="./images/logo2.png" alt="logo">
             <ul>
                 
                 <li><a href="/">Home</a></li>
                 <li><a href="/portfolio">Portfolio</a></li>
                 <li><a href="/contact">Contact</a></li>
                 <li><a href="/about">About</a></li>
-                <li><h1>Tyler J. Sweeney Portfolio</h1></li>
             </ul>
             
         </nav>
+        <wrapper>
+                <div id=container>
         <header>
             <h1>Ways to get in contact with me</h1>
             
@@ -59,6 +88,7 @@
             <p>Email</p>
             <p>Phone Number</p>
         </main>
-
+        </div>
+        </wrapper>
     </body>
 </html>
