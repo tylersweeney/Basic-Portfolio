@@ -66,33 +66,51 @@
         </style>
     </head>
     <body>
-
-        <nav>
-                <img id=logoImg src="./images/logo2.png" alt="logo">
-                <!-- <h1 id=logo>Tyler J. Sweeney Portfolio</h1> -->
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/portfolio">Portfolio</a></li>
-                <li><a href="/contact">Contact</a></li>
-                <li><a href="/about">About</a></li>
-            </ul>
-            
-        </nav>
-        <wrapper>
-           
-            <div id=container>
-        <header>
-            <h1>This is my full-stack portfolio</h1>
-            <h2>Inside you will find a list of personal and group projects that I have worked on</h2>
-        </header>
-        <main>
-            <p>Javascript</p>
-            <p>React</p>
-            <p>Mongo</p>
-            <p>Node.js</p>
-            <p>Express</p>
-        </main>
+        <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Tyler Sweeney</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-        </wrapper>
+        </header>
+        <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>About Me</h1>
+
+            <img src="assets/images/self.png" class="auth-img" alt="portrait from tech demo day">
+
+            <p>My name is Tyler Sweeney and I am a Full-Stack Web Developer.
+            I began programming in 2015 with Python at Orange Coast College.
+            I completed my Full-Stack Web Developer certification in April 2018.
+            A gamer since a young age when every game had to be launched from DOS,
+            my first interaction with programming was terminal commands.    
+            </p>
+
+            <p>In the group projects that I have been a part of, the main area I worked on
+            was back-end development. In my free time I have been learning C++ and the Unreal Engine.
+            I hope to have a part in making video games, which I have been passionate about my whole life.
+            </p>
+            
+        </section>
+
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect with Me</h2>
+
+                <img src="assets/images/github128.png" class="social" alt="Github">
+                <img src="assets/images/linkedin128.png" class="social" alt="LinkedIn">
+                <img src="assets/images/stackoverflow128.png" class="social" alt="Stack Overflow">
+            </div>
+
+        </section>
+        </div>
+        <footer>
+            <div class="container">
+                &copy; Copyright 2017 Tyler Sweeney
+            </div>
+        </footer>
     </body>
 </html>
