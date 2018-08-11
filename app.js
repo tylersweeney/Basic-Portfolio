@@ -26,6 +26,8 @@ app.set('view engine', 'ejs');
 app.get('/', (req, res) =>{
    res.render('home'); 
 });
+
+app.use(express.static('public'))
 // app.get('/', (req, res) =>{
 //    res.render('home', { user: req.user}); 
 // });
