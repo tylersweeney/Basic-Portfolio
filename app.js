@@ -5,18 +5,23 @@ const PORT = process.env.PORT || 3000;
 const ejs = require('ejs');
 const path = require('path');
 
-app.use(express.static('public'));
-//set up view engine
 app.set('views', path.join(__dirname, 'app/views'))
 app.set('view engine', 'ejs');
 
+app.use(express.static('public'));
+
+app.use('/images', express.static(__dirname + '/images'));
+app.use('/css', express.static(__dirname + '/css'));
+//set up view engine
 
 
 
-//connect to mongodb
-// mongoose.connect(keys.mongodb.dbURI, () => {
-//     console.log('connected to mongodb');
-// })
+
+
+// connect to mongodb
+mongoose.connect(keys.mongodb.dbURI, () => {
+    console.log('connected to mongodb');
+})
 
 //set up routes
 // app.use('/auth', authRoutes);
