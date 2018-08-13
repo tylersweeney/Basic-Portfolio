@@ -21,10 +21,8 @@ app.get('/', (req, res) =>{
    res.render('home'); 
 });
 
+//serve static files from public folder
 app.use(express.static('public'))
-// app.get('/', (req, res) =>{
-//    res.render('home', { user: req.user}); 
-// });
 
 //create portfolio route
 app.get('/portfolio', (req, res) =>{
@@ -32,16 +30,14 @@ app.get('/portfolio', (req, res) =>{
  });
 
  //create contact route
- app.get('/contact', (req,res)=>{
-     res.render('contact');
+app.get('/contact', (req,res)=>{
+    res.render('contact');
  })
 
  //create about route
- app.get('/about', (req,res)=>{
-     res.render('about');
+app.get('/about', (req,res)=>{
+    res.render('about');
  })
-
- app.use(express.static('public'));
 
 app.listen(PORT, () => {
     console.log('app now listening for requests on port:' + PORT);
