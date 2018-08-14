@@ -7,6 +7,7 @@ const path = require('path');
 const keys = require('./config/keys');
 
 
+
 //set up view engine
 app.set('views', path.join(__dirname, '/views'))
 app.set('view engine', 'ejs');
@@ -38,6 +39,8 @@ app.get('/contact', (req,res)=>{
 app.get('/about', (req,res)=>{
     res.render('about');
  })
+
+
 
 app.listen(PORT, () => {
     console.log('app now listening for requests on port:' + PORT);

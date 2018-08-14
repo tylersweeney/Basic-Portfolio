@@ -3,58 +3,68 @@
     <head>
         <meta charset="utf-8">
         <title>Tyler J. Sweeney Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="reset.css">
-        <link rel="stylesheet" href="./styles.css" type="text/css">
-    </head>
-    <body>
-        <header id="masthead">
-        <div class="container">
-            <div id="logo-div">
-                <a href="/" id="logo"><img src="logo.png"></a>
-            </div>
-            <nav>
-                <a href="/about">About</a>
-                <a href="/portfolio">Portfolio</a>
-                <a href="/contact">Contact</a>
-            </nav>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="/" class="brand-logo center"><img id= "logo"src="logo.png"></a>
+          <ul class="left hide-on-med-and-down">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="portfolio">Portfolio</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
         </div>
-        </header>
-        <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>About Me</h1>
+      </nav>
 
-            <img src="self.png" class="auth-img" alt="portrait from tech demo day">
-
-            <p>My name is Tyler Sweeney and I am a Full-Stack Web Developer.
-            I began programming in 2015 with Python at Orange Coast College.
-            I completed my Full-Stack Web Developer certification in April 2018.
-            A gamer since a young age when every game had to be launched from DOS,
-            my first interaction with programming was terminal commands.    
-            </p>
-
-            <p>In the group projects that I have been a part of, the main area I worked on
-            was back-end development. In my free time I have been learning C++ and the Unreal Engine.
-            I hope to have a part in making video games, which I have been passionate about my whole life.
-            </p>
-            
-        </section>
-
-        <section class="sidebar">
-            <div id="connect">
-                <h2>Connect with Me</h2>
-
-                <a href="https://github.com/tylersweeney"><img src="github128.png" class="social" alt="Github"></a>
-                <a href="https://www.linkedin.com/in/tylerjsweeney/"><img src="linkedin128.png" class="social" alt="LinkedIn"></a>
-                <a href="https://stackoverflow.com/users/8525667/tyler-sweeney"><img src="stackoverflow128.png" class="social" alt="Stack Overflow"></a>
+    <div class="parallax-container">
+        <div class="parallax"><img src="bg.jpg"></div>
+    </div>
+      <div class="section white">
+        <div class="row container">
+          <h2 class="header">About Me</h2>
+          
+          <div class="row">
+            <div class="col s6">
+            <img src="self.png" class="circle responsive-img" alt="portrait from tech demo day">
+          </div>
+            <div class="col s6">
+              <p id="about" class="grey-text text-darken-3 lighten-3">
+              My name is Tyler Sweeney and I am a Full-Stack Web Developer.
+              I began programming in 2015 with Python at Orange Coast College.
+              I completed my Full-Stack Web Developer certification in April 2018.
+              A gamer since a young age when every game had to be launched from DOS,
+              my first interaction with programming was terminal commands.    
+              </p>
+  
+              <p>In the group projects that I have been a part of, the main area I worked on
+              was back-end development. In my free time I have been learning C++ and the Unreal Engine.
+              I hope to have a part in making video games, which I have been passionate about my whole life.
+              </p>
             </div>
-
-        </section>
-
-        <section class="main-section">
-    
-                <img src="ext.jpg" class="auth-img" alt="portrait from tech demo day">
-    
-                <p>My name is Tyler Sweeney and I am a Full-Stack Web Developer.
+          </div>
+        </div>
+      </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="6screens.jpg"></div>
+    </div>
+      <div class="section white">
+          <div class="row container">
+            <h2 class="header">Graduating</h2>
+            
+            <div class="row">
+            </div>
+              <div class="col s6">
+                <p id="about" class="grey-text text-darken-3 lighten-3">
+                My name is Tyler Sweeney and I am a Full-Stack Web Developer.
                 I began programming in 2015 with Python at Orange Coast College.
                 I completed my Full-Stack Web Developer certification in April 2018.
                 A gamer since a young age when every game had to be launched from DOS,
@@ -65,31 +75,78 @@
                 was back-end development. In my free time I have been learning C++ and the Unreal Engine.
                 I hope to have a part in making video games, which I have been passionate about my whole life.
                 </p>
+              </div>
+             
+                <div class="col s6">
+                    <img id="grad" src="ext.jpg" class="circle responsive-img" alt="recieving my certification">
+                </div>
                 
-            </section>
+                <div class="row">
 
-            <section class="main-section">
-    
-                    <img src="tech1.jpg" class="auth-img" alt="portrait from tech demo day">
-        
-                    <p>My name is Tyler Sweeney and I am a Full-Stack Web Developer.
-                    I began programming in 2015 with Python at Orange Coast College.
-                    I completed my Full-Stack Web Developer certification in April 2018.
-                    A gamer since a young age when every game had to be launched from DOS,
-                    my first interaction with programming was terminal commands.    
-                    </p>
-        
-                    <p>In the group projects that I have been a part of, the main area I worked on
-                    was back-end development. In my free time I have been learning C++ and the Unreal Engine.
-                    I hope to have a part in making video games, which I have been passionate about my whole life.
-                    </p>
-                    
-                </section>
-        </div>
-        <footer>
-            <div class="container">
-                &copy; Copyright 2017 Tyler Sweeney
+                <div class="col s2">
+                    <img id="tech" src="html5logo.png">
+                </div>
+                <div class="col s2">
+                    <img id="tech"src="csslogo.png">
+                </div>
+                <div class="col s2">
+                    <img id="tech"src="jslogo.png">
+                </div>
+                <div class="col s2">
+                    <img id="tech"src="nodelogo.png">
+                </div>
+                <div class="col s2">
+                    <img id="tech"src="expresslogo.png">
+                </div>
+              </div>
             </div>
+            <div class="row">
+             
+              <div class="col s2">
+                  <img id="tech"src="jquerylogo.png">
+              </div>
+              <div class="col s2">
+                  <img id="tech"src="mongoDBlogo.png">
+              </div>
+              <div class="col s2">
+                  <img id="tech"src="materialize.png">
+              </div>
+              <div class="col s2">
+                  <img id="tech"src="reactlogo.png">
+              </div>
+              <div class="col s2">
+                <img src="mysql.png">
+              </div>
+          </div>
+        </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="prog-bg.jpg"></div>
+      </div>
+    
+      <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Tyler Sweeney</h5>
+                <p class="grey-text text-lighten-4"><img src="logo.png"></p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="/">Home</a></li>
+                  <li><a class="grey-text text-lighten-3" href="portfolio">Portfolio</a></li>
+                  <li><a class="grey-text text-lighten-3" href="about">About</a></li>
+                  <li><a class="grey-text text-lighten-3" href="contact">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Tyler Sweeney
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
         </footer>
-    </body>
+</body>
 </html>
