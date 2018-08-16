@@ -24,9 +24,28 @@
           </ul>
         </div>
       </nav>
+  <!-- Element Showed -->
+  <a id="menu" class="waves-effect waves-light btn btn-floating" ><i class="material-icons"></i></a>
+  <div class="fixed-action-btn direction-top active" style="bottom: 45px; right: 24px;">
+        <a id="menu" class="btn btn-floating btn-large cyan">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>  <!-- Tap Target Structure -->
+  <div class="tap-target" data-target="menu">
+    <div class="tap-target-content">
+      <h5>Contact Info</h5>
+      <p>tylersweeney@gmail.com</p>
+      <p>(714) 501-6400</p>
+      <a href="https://github.com/tylersweeney"><img src="assets/images/github128.png" class="social" alt="Github"></a>
+      <img src="assets/images/linkedin128.png" class="social" alt="LinkedIn">
+      <img src="assets/images/stackoverflow128.png" class="social" alt="Stack Overflow">
+    </div>
+  </div>
 
-      <div id="block1"class="parallax-container">
-            <div class="parallax"><img src="bg.jpg"></div>
+  <a class="waves-effect waves-light btn" onclick="$('.tap-target').tapTarget('open')">Contact Me</a>
+     
+  <div id="block1"class="parallax-container">
+            <div class="parallax">Projects and Designs<img src="bg.jpg"></div>
           </div>
           <div class="section white">
             <div class="row container">
@@ -96,43 +115,75 @@
                     <div class="parallax"><img src="SBintro559.gif"></div>
                   </div>
 
+                  <div class="section white">
+                        <div class="row container">
+                          <h2 class="header">Beer Me App</h2>
+            
+                          <div class="row">
+                              <div class="col s6">
+                          <img src="beerme.gif">
+                          </div>
+                          <div class="s6">
+                          <p class="grey-text text-darken-3 lighten-3">
+                            This was our first group project. This is a fun social app that uses facial
+                            recognition to suggest a beer based on detected emotion and suggests a brewery 
+                            nearby that serves said beer
+                          </p>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="parallax-container">
+                        <div class="parallax"><img src="beermepar.jpg"></div>
+                      </div>
 
-                                
-                            
-                        <h3>Beer Me</h3>
-                    </div>
-                    <div class="work">
-                        <img src="train.PNG" class="auth-img" alt="futurama hangman game">
+                      <div class="section white">
+                            <div class="row container">
+                              <h2 class="header">Train Time App</h2>
                 
-                        <h3>Train Schedule</h3>
-                    </div>    
-        
-                    <div class="work">
-                        <img src="friendfinder.PNG" class="auth-img" alt="futurama hangman game">
-                    
-                        <h3>Friend Finder</h3>
-                    </div> 
-                    <div class="work">
-                        <img src="nyt.PNG" class="auth-img" alt="futurama hangman game">
-                        <h3>React NYT Scrubber</h3>
-                    </div>       
-                </section>
-                    
-                <section class="sidebar">
-                    <div id="connect">
-                        <h2>Connect with Me</h2>
-                    
-                <a href="https://github.com/tylersweeney"><img src="github128.png" class="social" alt="Github"></a>
-                <a href="https://www.linkedin.com/in/tylerjsweeney/"><img src="linkedin128.png" class="social" alt="LinkedIn"></a>
-                <a href="https://stackoverflow.com/users/8525667/tyler-sweeney"><img src="stackoverflow128.png" class="social" alt="Stack Overflow"></a>
-                                </div>
-                    
-                </section>
+                              <div class="row">
+                                  <div class="col s6">
+                              <img src="traintime.gif">
+                              </div>
+                              <div class="s6">
+                              <p class="grey-text text-darken-3 lighten-3">
+                                This is a database app that takes a user input, stores it
+                                in the database using firebase and displays the data in
+                                a table.
+                              </p>
+                              </div>
+                              </div>
                             </div>
-                            <footer>
-                                <div class="container">
-                                    &copy; Copyright 2017 Tyler Sweeney
-                                </div>
-                            </footer>
+                          </div>
+                          <div class="parallax-container">
+                            <div class="parallax"><img src="lake.jpg"></div>
+                          </div>                                
+                            
+                            </div>
+                            <footer class="page-footer">
+                                    <div class="container">
+                                      <div class="row">
+                                        <div class="col l6 s12">
+                                          <h5 class="white-text">Tyler Sweeney</h5>
+                                          <p class="grey-text text-lighten-4"><img src="logo.png"></p>
+                                        </div>
+                                        <div class="col l4 offset-l2 s12">
+                                          <h5 class="white-text">Links</h5>
+                                          <ul>
+                                            <li><a class="grey-text text-lighten-3" href="/">Home</a></li>
+                                            <li><a class="grey-text text-lighten-3" href="portfolio">Portfolio</a></li>
+                                            <li><a class="grey-text text-lighten-3" href="about">About</a></li>
+                                            <li><a class="grey-text text-lighten-3" href="contact">Contact</a></li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="footer-copyright">
+                                      <div class="container">
+                                      © 2017 Tyler Sweeney
+                                      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                                      </div>
+                                    </div>
+                                  </footer>
     </body>
 </html>
