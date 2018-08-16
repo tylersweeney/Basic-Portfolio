@@ -5,6 +5,7 @@
         <title>Tyler J. Sweeney Portfolio</title>
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="./styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
@@ -25,13 +26,12 @@
         </div>
       </nav>
   <!-- Element Showed -->
-  <a id="menu" class="waves-effect waves-light btn btn-floating" ><i class="material-icons"></i></a>
   <div class="fixed-action-btn direction-top active" style="bottom: 45px; right: 24px;">
-        <a id="menu" class="btn btn-floating btn-large cyan">
-          <i class="material-icons">menu</i>
+        <a id="email" class="btn btn-floating btn-large pulse cyan waves-effect waves-light btn" onclick="$('.tap-target').tapTarget('open')"><i class="material-icons">email</i></a>">
+          
         </a>
       </div>  <!-- Tap Target Structure -->
-  <div class="tap-target" data-target="menu">
+  <div class="tap-target" data-target="email">
     <div class="tap-target-content">
       <h5>Contact Info</h5>
       <p>tylersweeney@gmail.com</p>
@@ -42,7 +42,6 @@
     </div>
   </div>
 
-  <a class="waves-effect waves-light btn" onclick="$('.tap-target').tapTarget('open')">Contact Me</a>
      
   <div id="block1"class="parallax-container">
             <div class="parallax">Projects and Designs<img src="bg.jpg"></div>
