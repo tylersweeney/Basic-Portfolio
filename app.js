@@ -31,14 +31,14 @@ app.get('/portfolio', (req, res) =>{
  });
 
  //create contact route
-app.get('/contact', (req,res)=>{
-    res.render('contact');
- })
+// app.get('/contact', (req,res)=>{
+//     res.render('contact');
+//  })
 
  //create about route
-app.get('/about', (req,res)=>{
-    res.render('about');
- })
+// app.get('/about', (req,res)=>{
+//     res.render('about');
+//  })
 
 
 
