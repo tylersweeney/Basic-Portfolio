@@ -30,6 +30,10 @@ app.get('/portfolio', (req, res) =>{
     res.render('portfolio'); 
  });
 
+ app.get('/wearestillcool', (req, res) =>{
+    res.render('wearestillcool'); 
+ });
+
  //create contact route
 // app.get('/contact', (req,res)=>{
 //     res.render('contact');
