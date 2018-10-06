@@ -29,7 +29,9 @@ app.use(express.static('public'))
 app.get('/portfolio', (req, res) =>{
     res.render('portfolio'); 
  });
-
+ app.get('/contact', (req, res) =>{
+    res.render('contact'); 
+ });
  app.get('/wearestillcool', (req, res) =>{
     res.render('wearestillcool'); 
  });
