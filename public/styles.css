@@ -5,6 +5,9 @@
 #block1{
   height:15vh;
 }
+#block2{
+  height: 15vh;
+}
 
 #block3{
   height:15vh;
@@ -27,4 +30,14 @@
 
 #grad{
   float: right;
+}
+
+#contact{
+  margin-left: 200px;
+  margin-top : 50px;
+}
+
+#resume{
+  margin-left: 200px;
+  margin-top: 50px;
 }

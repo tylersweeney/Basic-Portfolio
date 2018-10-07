@@ -32,6 +32,9 @@ app.get('/portfolio', (req, res) =>{
  app.get('/contact', (req, res) =>{
     res.render('contact'); 
  });
+ app.get('/resume', (req, res) =>{
+    res.render('resume'); 
+ });
  app.get('/wearestillcool', (req, res) =>{
     res.render('wearestillcool'); 
  });
