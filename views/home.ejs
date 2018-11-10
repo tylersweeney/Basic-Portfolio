@@ -1,173 +1,180 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="google-site-verification" content="yy7qgtwyIga6CKVPJcl_ESmGidnjRII4IKxVFOwa-ho" />
-        <title>Tyler J. Sweeney Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" href="./styles.css" type="text/css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <script src="scripts.js"></script>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="yy7qgtwyIga6CKVPJcl_ESmGidnjRII4IKxVFOwa-ho" />
+  <title>Tyler J. Sweeney Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" href="./styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="scripts.js"></script>
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper">
-          <a href="/" class="brand-logo center"><img id= "logo"src="logo.png"></a>
-          <ul class="left hide-on-med-and-down">
-            <li class="active"><a class="grey-text text-darken-3" href="portfolio">Home</a></li>
-            <!-- <li><a class="grey-text text-darken-3" href="portfolio">Portfolio</a></li> -->
-            <li><a class="grey-text text-darken-3" href="about">About</a></li>
-            <li><a class="grey-text text-darken-3" href="contact">Contact</a></li>
-            <li><a class="grey-text text-darken-3" href="resume">Resume</a></li>
-          </ul>
-        </div>
-      </nav>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="nav-wrapper green accent-1">
+      <a href="/" class="brand-logo center"><img id="logo" src="logo.png"></a>
+      <ul class="left hide-on-med-and-down">
+          <li class="active"><a class="grey-text text-darken-3" href="/">Home</a></li>
+          <li><a class="grey-text text-darken-3"href="portfolio">Portfolio</a></li>
+          <li><a class="grey-text text-darken-3"href="contact">Contact</a></li>
+          <li><a class="grey-text text-darken-3"href="resume">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
 
   <!-- Element Showed -->
   <div class="fixed-action-btn direction-top active" style="bottom: 45px; right: 24px;">
-      <a id="email" class="btn btn-floating btn-large pulse cyan waves-effect waves-light btn" onclick="$('.tap-target').tapTarget('open')"><i class="material-icons">email</i></a>
-        
-      </a>
-    </div>  <!-- Tap Target Structure -->
-<div class="tap-target" data-target="email">
-  <div class="tap-target-content">
-    <h5>Contact Info</h5>
-    <p>tylersweeney@gmail.com</p>
-    <p>(714) 501-6400</p>
-    <i class="material-icons">public</i><a href="https://github.com/tylersweeney">Github</a>
-    <i class="material-icons">assignment_ind</i><a href="https://www.linkedin.com/in/tylerjsweeney/">LinkedIn</a>
-    <i class="material-icons">equalizer</i><a href="https://stackoverflow.com/users/8525667/tyler-sweeney">Stack Overflow</a>
-  </div>
-</div>
-
-    <div id="block1" class="parallax-container">
-        <div class="parallax"><img src="bg.jpg"></div>
+    <a id="email" class="btn btn-floating btn-large pulse cyan waves-effect waves-light btn" onclick="$('.tap-target').tapTarget('open')"><i
+        class="material-icons">email</i></a>
+  </div> 
+  
+  <!-- Tap Target Structure -->
+  <div class="tap-target" data-target="email">
+    <div class="tap-target-content">
+      <h5>Contact Info</h5>
+      <p>tylersweeney@gmail.com</p>
+      <p>(714) 501-6400</p>
+      <i class="material-icons">public</i><a href="https://github.com/tylersweeney">Github</a>
+      <i class="material-icons">assignment_ind</i><a href="https://www.linkedin.com/in/tylerjsweeney/">LinkedIn</a>
+      <i class="material-icons">equalizer</i><a href="https://stackoverflow.com/users/8525667/tyler-sweeney">Stack Overflow</a>
     </div>
+  </div>
 
-      <div class="section white">
-        <div class="row container">
-          <h2 class="header">About Me</h2>
-          
-          <div class="row">
-            <div class="col s6">
+  <div class="wrapper">
+
+  <!-- Top parallax -->
+  <div id="block1" class="parallax-container">
+    <div class="parallax"><img src="bg.jpg"></div>
+  </div>
+    <!-- About Me Section -->
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header">About Me</h2>
+        <div class="row">
+          <div class="col s6">
             <img src="self.png" class="circle responsive-img" alt="portrait from tech demo day">
           </div>
-            <div class="col s6">
-              <p id="about" class="grey-text text-darken-3 lighten-3">
+          <div class="col s6">
+            <p id="about" class="grey-text text-darken-3 lighten-3">
+              I am a full-stack web developer. I have 3 years experience building full application front to back.
+              I specialize in MERN stack builds, but am experienced in many coding languages.
+              I also have experience with SEO and online advertising.
+            </p>
+            <br>
+            <br>
+            <p>
               My name is Tyler Sweeney and I am a Full-Stack Web Developer.
               I began programming in 2015 with Python at Orange Coast College.
               I completed my Full-Stack Web Developer certification in April 2018.
               A gamer since a young age when every game had to be launched from DOS,
-              my first interaction with programming was terminal commands.    
-              </p>
-  
-              <p>In the group projects that I have been a part of, the main area I worked on
+              my first interaction with programming was terminal commands.
+            </p>
+            <br>
+            <br>
+            <p>In the group projects that I have been a part of, the main area I worked on
               was back-end development. In my free time I have been learning C++ and the Unreal Engine.
               I hope to have a part in making video games, which I have been passionate about my whole life.
+            </p>
+            <br>
+            <br>
+                <div class="row">
+                          <!-- Card Number 1 -->
+                          <div class="col s12 m6">
+                            <div class="card blue-grey darken-1">
+                              <div class="card-content white-text">
+                                <span class="card-title">Card Title</span>
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                  I am convenient because I require little markup to use effectively.</p>
+                              </div>
+                              <div class="card-action">
+                                <a href="#">This is a link</a>
+                                <a href="#">This is a link</a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Card number 2 -->
+                          <div class="col s12 m6">
+                            <div class="card blue-grey darken-1">
+                              <div class="card-content white-text">
+                                <span class="card-title">Card Title</span>
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                  I am convenient because I require little markup to use effectively.</p>
+                              </div>
+                              <div class="card-action">
+                                <a href="#">This is a link</a>
+                                <a href="#">This is a link</a>
+                              </div>
+                            </div>
+                          </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Middle Parallax -->
+  <div id="block1" class="parallax-container">
+      <div class="parallax"><img src="bg.jpg"></div>
+    </div>
+    <!-- Graduation Section -->
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header">Graduating</h2>
+          <div class="row">
+            <div class="col s6">
+              <img id="grad2" src="grad2.png">
+            </div> 
+            <div class="col s6">
+              <img id="grad" src="grad.png">
+              <br>
+              <br>
+              <p>The Coding Bootcamp at University of California, Irvine Division of Continuing Education
+                was a 6 month intensive course spanning 240 hours of instruction and covering the lastest
+                industry standard technical skills.
               </p>
             </div>
           </div>
-        </div>
       </div>
-                                                                    
-    <div class="parallax-container">
-      <div id="block4" class="parallax"><img src="6screens.jpg"></div>
     </div>
-      <div class="section white">
-          <div class="row container">
-            <h2 class="header">Graduating</h2>
-            
-            <div class="row">
-            </div>
-              <div class="col s6">
-                <p id="about" class="grey-text text-darken-3 lighten-3">
-                   
-                </p>
-    
-                <p>
-                </p>
-              </div>
-             
-                <div class="col s6">
-                    <img id="grad" src="ext.jpg" class="circle responsive-img" alt="recieving my certification">
-                </div>
+  <!-- Bottom Parallax -->
+  <div id="block3" class="parallax-container">
+      <div class="parallax"><img src="prog-bg.jpg"></div>
+  </div>
 
-                <div class="row">
-
-                    <div class="col s2">
-                        <img class="tech" src="html5logo.png">
-                    </div>
-                    <div class="col s2">
-                        <img class="tech"src="csslogo.png">
-                    </div>
-                    <div class="col s2">
-                        <img class="tech"src="jslogo.png">
-                    </div>
-                </div>
-              <div class="row">
-
-                  <div class="col s2">
-                      <img id="tech"src="nodelogo.png">
-                  </div>
-                  <div class="col s2">
-                      <img id="tech"src="expresslogo.png">
-                  </div>
-              </div>
-            
-            <div class="row">
-
-              <div class="col s2">
-                  <img id="tech"src="jquerylogo.png">
-              </div>
-              <div class="col s2">
-                  <img id="tech"src="MongoDBlogo.png">
-              </div>
-              <div class="col s2">
-                  <img id="tech"src="materialize.png">
-              </div>
-              <div class="col s2">
-                  <img id="tech"src="reactlogo.png">
-              </div>
-              <div class="col s2">
-                <img src="mysql.png">
-              </div>
-          </div>
+  <!-- Footer Bar -->
+  <footer class="page-footer green accent-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s6">
+          <h5 class="grey-text text-darken-3">Tyler Sweeney</h5>
+          <p class="grey-text text-darken-3"><img src="logo.png"></p>
         </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="grey-text text-darken-3">Links</h5>
+          <ul>
+            <li><a class="grey-text text-darken-3" href="/">Home</a></li>
+            <li><a class="grey-text text-darken-3" href="portfolio">Portfolio</a></li>
+            <li><a class="grey-text text-darken-3" href="about">About</a></li>
+            <li><a class="grey-text text-darken-3" href="contact">Contact</a></li>
+          </ul>
         </div>
-    <div id="block3" class="parallax-container">
-        <div class="parallax"><img src="prog-bg.jpg"></div>
       </div>
-    
-      <footer class="page-footer green accent-1">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s6">
-                <h5 class="grey-text text-darken-3">Tyler Sweeney</h5>
-                <p class="grey-text text-darken-3"><img src="logo.png"></p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="grey-text text-darken-3">Links</h5>
-                <ul>
-                  <li><a class="grey-text text-darken-3" href="/">Home</a></li>
-                  <li><a class="grey-text text-darken-3" href="portfolio">Portfolio</a></li>
-                  <li><a class="grey-text text-darken-3" href="about">About</a></li>
-                  <li><a class="grey-text text-darken-3" href="contact">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-              <a class="grey-text text-darken-3">© 2017 Tyler Sweeney</a>
-            <a class="grey-text text-darken-3 right" href="#!">More Links</a>
-            </div>
-          </div>
-        </footer>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <a class="grey-text text-darken-3">© 2017 Tyler Sweeney</a>
+        <a class="grey-text text-darken-3 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>

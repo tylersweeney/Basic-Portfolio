@@ -1,9 +1,14 @@
-#logo{
-    margin-top:2px;
+.header{
+  text-align: center;
 }
 
-.nav{
-  background-color: transparent;
+#grad, #grad2{
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+#logo{
+    margin-top:2px;
 }
 
 #block1{
@@ -30,10 +35,6 @@
 
 #stillCoolFrame{
   margin-left: 600px;
-}
-
-#grad{
-  float: right;
 }
 
 #contact{
