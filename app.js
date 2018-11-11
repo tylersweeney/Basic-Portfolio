@@ -24,7 +24,6 @@ app.get('/', (req, res) =>{
 
 //serve static files from public folder
 app.use(express.static('public'))
-app.use('/pdf', express.static(__dirname + '/public/resume.pdf'));
 
 
 //create portfolio route
