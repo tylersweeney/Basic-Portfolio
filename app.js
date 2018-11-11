@@ -24,6 +24,8 @@ app.get('/', (req, res) =>{
 
 //serve static files from public folder
 app.use(express.static('public'))
+app.use('/pdf', express.static(__dirname + '/public/resume.pdf'));
+
 
 //create portfolio route
 app.get('/portfolio', (req, res) =>{
@@ -38,7 +40,6 @@ app.get('/portfolio', (req, res) =>{
  app.get('/wearestillcool', (req, res) =>{
     res.render('wearestillcool'); 
  });
-
  //create contact route
 // app.get('/contact', (req,res)=>{
 //     res.render('contact');
