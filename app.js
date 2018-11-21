@@ -34,6 +34,19 @@ app.get('/portfolio', (req, res) =>{
  app.get('/wearestillcool', (req, res) =>{
     res.render('wearestillcool'); 
  });
+ 
+app.get('/moodbrews', (req, res) =>{
+   res.render('moodbrews');
+});
+
+app.get('futurama', (req, res)=>{
+   res.render('futurama');
+});
+
+app.get('spaceballs', (req, res)=>{
+   res.render('spaceballs');
+});
+
  //create contact route
 // app.get('/contact', (req,res)=>{
 //     res.render('contact');
