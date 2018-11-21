@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tyler J. Sweeney Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Gloria+Hallelujah" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" href="./styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper green accent-1">
+      <a href="/" class="brand-logo center"><img id="logo" src="logo.png"></a>
+      <ul class="left hide-on-small-and-down">
+        <li><a class="grey-text text-darken-3" href="/">Home</a></li>
+        <li class="active"><a class="grey-text text-darken-3" href="portfolio">Portfolio</a></li>
+      </ul>
+        <ul class="right hide-on-small-and-down">
+        <li><a class="grey-text text-darken-3" href="contact">Contact</a></li>
+        <li><a class="grey-text text-darken-3" href="resume">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Element Showed -->
+  <!-- need to make it obvious that this  -->
+  <div class="fixed-action-btn direction-top active" style="bottom: 45px; right: 24px;">
+    <a id="email" class="btn btn-floating btn-large pulse cyan waves-effect waves-light btn" onclick="$('.tap-target').tapTarget('open')"><i
+        class="material-icons">email</i></a>
+
+    </a>
+  </div> <!-- Tap Target Structure -->
+  <div class="tap-target" data-target="email">
+    <div class="tap-target-content">
+      <h5>Contact Info</h5>
+      <p>tylersweeney@gmail.com</p>
+      <p>(714) 501-6400</p>
+      <i class="material-icons">public</i><a href="https://github.com/tylersweeney">Github</a>
+      <br>
+      <i class="material-icons">assignment_ind</i><a href="https://www.linkedin.com/in/tylerjsweeney/">LinkedIn</a>
+      <br>
+      <i class="material-icons">equalizer</i><a href="https://stackoverflow.com/users/8525667/tyler-sweeney">Stack
+        Overflow</a>
+    </div>
+  </div>
+
+
+  <div id="block1" class="parallax-container">
+    <div class="parallax"><img src="bg.jpg"></div>
+  </div>
+  <div class="section teal lighten-5">
+    <div class="row container">
+      <h1 class="wasc-header center">Mood Brews</h1>
+      <h4 class="wasc-subheader center">Find a Brew based on your Mood</h4>
+      <div class="row">
+        <div class="col s12">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <footer class="page-footer green accent-1">
+        <div class="container">
+            <div class="row">
+            <div class="col l6 s6">
+                <h5 class="white-text">Tyler Sweeney</h5>
+                <p class="grey-text text-lighten-4"><img src="logo.png"></p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                <li><a class="grey-text text-lighten-3" href="/">Home</a></li>
+                <li><a class="grey-text text-lighten-3" href="portfolio">Portfolio</a></li>
+                <li><a class="grey-text text-lighten-3" href="about">About</a></li>
+                <li><a class="grey-text text-lighten-3" href="contact">Contact</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+            © 2017 Tyler Sweeney
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+        </footer>
