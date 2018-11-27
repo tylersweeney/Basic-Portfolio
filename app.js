@@ -46,6 +46,10 @@ app.get('/spaceballs', (req, res)=>{
    res.render('spaceballs');
 });
 
+app.get('/traintime', (req,res)=>{
+   res.render('traintime');
+});
+
 
 
  //create contact route
